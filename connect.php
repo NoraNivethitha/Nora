@@ -1,6 +1,6 @@
 <?php
-$con=new mysqli('localhost','root','nora2213','drive');
+$con=new mysqli('localhost','root','nora2213','crudoperation');
 if(!$con){
-    die(mysqli_error($con));
+    die(mysqli_error($con));    
 }
 ?>
